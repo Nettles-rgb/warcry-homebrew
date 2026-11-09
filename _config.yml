@@ -1,6 +1,8 @@
 title: Just the Docs Template
 description: A starter template for a Jeykll site using the Just the Docs theme!
-remote_theme: just-the-docs
+remote_theme: just-the-docs/just-the-docs
+plugins:
+  - jekyll-remote-theme
 
 # URL Config
 url: "https://nettles-rgb.github.io"
@@ -16,6 +18,3 @@ collections:
   posts:
     output: true
     permalink: /blog/:year/:month/:day/:title/
-    
-aux_links:
-  Template Repository: https://github.com/just-the-docs/just-the-docs-template
