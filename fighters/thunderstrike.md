@@ -8,9 +8,9 @@ parent: Additional Fighters
 
 Add the following fighters to the Stormcast Eternals: Thunderstrike Stormcast faction.
 
-![Lord-Celestant]({{ site.url }}/assets/img/sentinels-of-order_stormcast-eternals-thunderstrike-chamber_lord-celestant_2026-11-13_11-41.png)
-![Lord-Relictor]({{ site.url }}/assets/img/sentinels-of-order_stormcast-eternals-thunderstrike-chamber_lord-relictor_2026-11-11_18-11.png)
-![Stormstrike Pallador with Stormstrike Lance]({{ site.url }}/assets/img/sentinels-of-order_stormcast-eternals-thunderstrike-chamber_stormstrike-pallador-with-stormstrike-lance_2026-11-13_11-47.png)
+![Lord-Celestant]({{ site.baseurl }}/assets/img/sentinels-of-order_stormcast-eternals-thunderstrike-chamber_lord-celestant_2026-11-13_11-41.png)
+![Lord-Relictor]({{ site.baseurl }}/assets/img/sentinels-of-order_stormcast-eternals-thunderstrike-chamber_lord-relictor_2026-11-11_18-11.png)
+![Stormstrike Pallador with Stormstrike Lance]({{ site.baseurl }}/assets/img/sentinels-of-order_stormcast-eternals-thunderstrike-chamber_stormstrike-pallador-with-stormstrike-lance_2026-11-13_11-47.png)
 
 # Abilities
 

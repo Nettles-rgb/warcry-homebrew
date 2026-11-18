@@ -31,3 +31,11 @@ parent: Homebrew Factions
 | Stormcast Eternals: Extremis Chamber, Hero | **\[Triple\] Righteous Avengers**: Pick a visible friendly fighter within 6" of this fighter that has not activated yet this battle round. You can activate that fighter immediately after this fighter's activation ends. That fighter adds 1 to the strength characteristics of any attack actions it makes until the end of its activation. |
 
 ### Fighters
+
+![Lord-Celestant with Lightning Hammer]({{ site.baseurl }}/assets/img/image8.png)
+![Lord-Celestant with Stormhead Halberd]({{ site.baseurl }}/assets/img/image1.png)
+![Tempestor]({{ site.baseurl }}/assets/img/image7.png)
+![Concussor]({{ site.baseurl }}/assets/img/image6.png)
+![Desolator]({{ site.baseurl }}/assets/img/image11.png)
+![Fulminator]({{ site.baseurl }}/assets/img/image3.png)
+![Gryph-Hound]({{ site.baseurl }}/assets/img/image2.png)

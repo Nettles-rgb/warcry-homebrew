@@ -10,7 +10,26 @@ Welcome to my collection of Warcry homebrew rules. Much like my painting, they'r
 
 Use the sidebar navigation to browse custom factions, narrative campaign quests, Anvils of Apotheosis and other rules.
 
-### Credits and Attributations
+## Homebrew Types
+
+### Additional Fighters
+
+Additional fighters for existing factions. These aim to fill holes that GW never filled like covering unused weapon options or miniatures. In some cases I've used some artistic license to a faction some variety it was previously lacking.
+
+Where appropriate these additional fighters come with additional abilities.
+
+### Homebrew Factions
+
+These are whole new homebrew factions with new fighters, abilities, reactions and battle traits. The goal of these is to fit neatly into the wider Warcry game.
+
+These could include:
+
+* Age of Sigmar factions (or subfactions) that never got Warcry rules (e.g. Extremis Chamber Stormcast),
+* Long-squatted AoS factions that are being resurrected into Warcry (Legions of Azgorh),
+* WHFB factions, 
+* Other assorted ideas.
+
+## Credits and Attributions
 
 Fighter cards on this page were created using Hennirock's 2026 card creator. You can find it here: https://hennirocks.github.io/warcry-card-creator-2026/.
 
