@@ -1,7 +1,6 @@
 ---
 layout: default
 title: Anvil of Apotheosis
-nav_order: 2
 has_children: true
 permalink: /anvil/
 ---

@@ -290,14 +290,6 @@ A fighter may choose up to one additional Runemark, at a cost of 5 points. The b
 
 ## Companion Gryph-Hound
 
-A Companion Gryph-Hound has the following profile:
+A Companion Gryph-Hound has the following profile. A Companion Gryph-Hound has the same Faction Runemark as the Anvil of Apotheosis character it accompanies.
 
-| Fighter | Move | Toughness | Wounds | Runemarks |
-| :--- | :---: | :---: | :---: | :---: |
-| Companion Gryph-Hound | 6" | 3 | 6 | Beast | 
-
-Equipment: Gryph-Hound Claws:
-
-| Range | Attacks | Strength | Damage |
-| :---: | :---:   | :---:    | :---:  |
-| 7     | 2       | 4        | 2/4    |
+![Companion Gryph-Hound]({{ site.url }}/assets/img/companion-gryph-hound_2026-11-11_16-42.png)
