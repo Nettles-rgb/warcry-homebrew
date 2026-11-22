@@ -34,3 +34,13 @@ These could include:
 Fighter cards on this page were created using Hennirock's 2026 card creator. You can find it here: https://hennirocks.github.io/warcry-card-creator-2026/.
 
 Warbands of Renown were something I'd entertained when trying to come up with combined warbands (e.g. Belakor's Legions) but the idea of single-faction warbands of renown with remixed abilities didn't click until I saw TheSaltySea's video on the topic: 
+
+Data structure is aligned to the Warcry data repo: https://github.com/krisling049/warcry_data
+
+Runemarks come from here (and if not here, were bodged together by me with an svg converter): https://github.com/barrysheppard/warcry-card-creator
+
+## Disclaimer
+
+This is an unofficial fan project and is in no way associated with or endorsed by Games Workshop or any other company. It is a non-commercial and non-profit project developed out of love for Warcry as a game and setting.
+
+Warcry, Warhammer Age of Sigmar, and all associated names, marks, and imagery are trademarks and/or copyright of Games Workshop Group PLC and are used here without permission under fan tolerance. 

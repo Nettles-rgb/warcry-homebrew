@@ -1,0 +1,105 @@
+{% assign warband_entries = site.data.abilities_battletraits | where: "warband", include.warband %}
+{% assign alliance_slug = include.grand_alliance | slugify %}
+{% assign warband_slug = include.warband | slugify %}
+
+{% assign battle_traits = warband_entries | where: "cost", "battletrait" %}
+{% assign reactions = warband_entries | where: "cost", "reaction" %}
+
+{%- comment -%} Sort standard abilities in Double -> Triple -> Quad order {%- endcomment -%}
+{% assign doubles = warband_entries | where: "cost", "double" %}
+{% assign triples = warband_entries | where: "cost", "triple" %}
+{% assign quads = warband_entries | where: "cost", "quad" %}
+{% assign standard_abilities = doubles | concat: triples | concat: quads %}
+
+{%- comment -%} 1. BATTLE TRAIT {%- endcomment -%}
+{% if battle_traits.size > 0 %}
+<h3>Battle Trait</h3>
+<table>
+  <thead>
+    <tr>
+      <th>Runemark</th>
+      <th>Trait</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for trait in battle_traits %}
+    <tr>
+      <td class="wc-table-runemarks">
+        <span class="wc-inline-runemark" title="{{ include.warband }}">
+          {% include runemarks/factions-{{ alliance_slug }}-{{ warband_slug }}.svg %}
+        </span>
+        {% for mark in trait.runemarks %}
+          {% assign mark_slug = mark | slugify %}
+          <span class="wc-inline-runemark" title="{{ mark | capitalize }}">
+            {% include runemarks/fighters-{{ mark_slug }}.svg %}
+          </span>
+        {% endfor %}
+      </td>
+      <td><strong>{{ trait.name }}:</strong> {{ trait.description }}</td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+{% endif %}
+
+{%- comment -%} 2. REACTION {%- endcomment -%}
+{% if reactions.size > 0 %}
+<h3>Reaction</h3>
+<table>
+  <thead>
+    <tr>
+      <th>Runemark</th>
+      <th>Reaction</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for reaction in reactions %}
+    <tr>
+      <td class="wc-table-runemarks">
+        <span class="wc-inline-runemark" title="{{ include.warband }}">
+          {% include runemarks/factions-{{ alliance_slug }}-{{ warband_slug }}.svg %}
+        </span>
+        {% for mark in reaction.runemarks %}
+          {% assign mark_slug = mark | slugify %}
+          <span class="wc-inline-runemark" title="{{ mark | capitalize }}">
+            {% include runemarks/fighters-{{ mark_slug }}.svg %}
+          </span>
+        {% endfor %}
+      </td>
+      <td><strong>{{ reaction.name }}:</strong> {{ reaction.description }}</td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+{% endif %}
+
+{%- comment -%} 3. ABILITIES {%- endcomment -%}
+{% if standard_abilities.size > 0 %}
+<h3>Abilities</h3>
+<table>
+  <thead>
+    <tr>
+      <th>Runemark</th>
+      <th>Ability</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for ability in standard_abilities %}
+    <tr>
+      <td class="wc-table-runemarks">
+        <span class="wc-inline-runemark" title="{{ include.warband }}">
+          {% include runemarks/factions-{{ alliance_slug }}-{{ warband_slug }}.svg %}
+        </span>
+        {% for mark in ability.runemarks %}
+          {% assign mark_slug = mark | slugify %}
+          <span class="wc-inline-runemark" title="{{ mark | capitalize }}">
+            {% include runemarks/fighters-{{ mark_slug }}.svg %}
+          </span>
+        {% endfor %}
+      </td>
+      <td><strong>[{{ ability.cost | capitalize }}] {{ ability.name }}:</strong> {{ ability.description }}</td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+{% endif %}

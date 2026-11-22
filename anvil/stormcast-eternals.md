@@ -288,8 +288,14 @@ A fighter may choose up to one additional Runemark, at a cost of 5 points. The b
 * **Questor Soulsworn**: Destroyer, Champion
 * **Thunderstrike Stormcasts**: Ferocious, Warrior, Scout, Frenzied, Champion
 
-## Companion Gryph-Hound
+## Additional Fighter Profiles
 
 A Companion Gryph-Hound has the following profile. A Companion Gryph-Hound has the same Faction Runemark as the Anvil of Apotheosis character it accompanies.
 
-![Companion Gryph-Hound]({{ site.baseurl }}/assets/img/companion-gryph-hound_2026-11-11_16-42.png)
+{% assign warband_fighters = site.data.fighters | where: "warband", "Stormcast Eternals" | sort: "points" | reverse %}
+
+{% for fighter in warband_fighters %}
+  {% unless fighter.runemarks contains "hero" %}
+    {% include fighter-card.html fighter=fighter %}
+  {% endunless %}
+{% endfor %}

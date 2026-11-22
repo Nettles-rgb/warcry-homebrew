@@ -1,0 +1,364 @@
+[
+    {
+        "id": "sc-anvil-1",
+        "grand_alliance": "order",
+        "movement": 6,
+        "name": "Companion Gryph-Hound",
+        "points": 65,
+        "runemarks": [
+			"beast"
+		],
+        "subfaction": "",
+        "toughness": 3,
+        "warband": "Stormcast Eternals",
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 3,
+                "dmg_hit": 1,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "claws",
+                "strength": 3
+            }
+        ],
+        "wounds": 6
+    },
+    {
+        "id": "extremis-1",
+        "grand_alliance": "order",
+        "movement": 8,
+        "name": "Lord-Celestant on Dracoth with Stormhead Halberd",
+        "points": 295,
+        "runemarks": [
+			"hero",
+			"mount"
+		],
+        "subfaction": "",
+        "toughness": 6,
+        "warband": "Stormcast Eternals Extremis Chamber",
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 6,
+                "dmg_hit": 3,
+                "max_range": 2,
+                "min_range": 0,
+                "runemark": "axe",
+                "strength": 4
+            },
+            {
+                "attacks": 2,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 7,
+                "min_range": 0,
+                "runemark": "blast",
+                "strength": 4
+            }
+        ],
+        "wounds": 35
+    },
+    {
+        "id": "extremis-2",
+        "grand_alliance": "order",
+        "movement": 8,
+        "name": "Lord-Celestant on Dracoth with Lightning Hammer",
+        "points": 300,
+        "runemarks": [
+			"hero",
+			"mount"
+		],
+        "subfaction": "",
+        "toughness": 5,
+        "warband": "Stormcast Eternals Extremis Chamber",
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 5,
+                "dmg_hit": 3,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "hammer",
+                "strength": 5
+            },
+            {
+                "attacks": 2,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 7,
+                "min_range": 0,
+                "runemark": "blast",
+                "strength": 4
+            }
+        ],
+        "wounds": 35
+    },
+    {
+        "id": "extremis-3",
+        "grand_alliance": "order",
+        "warband": "Stormcast Eternals Extremis Chamber",
+        "name": "Tempestor",
+        "points": 300,
+        "movement": 8,
+        "toughness": 6,
+        "wounds": 35,
+        "runemarks": [
+			"mount",
+			"scout"
+		],
+        "subfaction": "",
+        "weapons": [
+            {
+                "runemark": "ranged-weapon",
+                "min_range": 3,
+                "max_range": 15,
+				"attacks": 4,
+                "strength": 4,
+                "dmg_hit": 1,
+                "dmg_crit": 4
+            },
+            {
+                "runemark": "blast",
+                "min_range": 0,
+                "max_range": 7,
+				"attacks": 2,
+                "strength": 4,
+                "dmg_hit": 2,
+                "dmg_crit": 4
+            }
+        ]
+    },
+    {
+        "id": "extremis-4",
+        "grand_alliance": "order",
+        "warband": "Stormcast Eternals Extremis Chamber",
+        "name": "Concussor",
+        "points": 225,
+        "movement": 8,
+        "toughness": 6,
+        "wounds": 35,
+        "runemarks": [
+			"mount",
+			"destroyer"
+		],
+        "subfaction": "",
+        "weapons": [
+            {
+                "runemark": "hammer",
+                "min_range": 0,
+                "max_range": 1,
+				"attacks": 3,
+                "strength": 5,
+                "dmg_hit": 3,
+                "dmg_crit": 5
+            },
+            {
+                "runemark": "blast",
+                "min_range": 0,
+                "max_range": 7,
+				"attacks": 2,
+                "strength": 4,
+                "dmg_hit": 2,
+                "dmg_crit": 4
+            }
+        ]
+    },
+    {
+        "id": "extremis-5",
+        "grand_alliance": "order",
+        "warband": "Stormcast Eternals Extremis Chamber",
+        "name": "Desolator",
+        "points": 210,
+        "movement": 8,
+        "toughness": 6,
+        "wounds": 35,
+        "runemarks": [
+			"mount",
+			"elite"
+		],
+        "subfaction": "",
+        "weapons": [
+            {
+                "runemark": "axe",
+                "min_range": 0,
+                "max_range": 1,
+				"attacks": 4,
+                "strength": 4,
+                "dmg_hit": 2,
+                "dmg_crit": 4
+            },
+            {
+                "runemark": "blast",
+                "min_range": 0,
+                "max_range": 7,
+				"attacks": 2,
+                "strength": 4,
+                "dmg_hit": 2,
+                "dmg_crit": 4
+            }
+        ]
+    },
+    {
+        "id": "extremis-6",
+        "grand_alliance": "order",
+        "warband": "Stormcast Eternals Extremis Chamber",
+        "name": "Fulminator",
+        "points": 210,
+        "movement": 8,
+        "toughness": 6,
+        "wounds": 35,
+        "runemarks": [
+			"mount",
+			"bulwark"
+		],
+        "subfaction": "",
+        "weapons": [
+            {
+                "runemark": "spear",
+                "min_range": 0,
+                "max_range": 3,
+				"attacks": 3,
+                "strength": 4,
+                "dmg_hit": 2,
+                "dmg_crit": 5
+            },
+            {
+                "runemark": "blast",
+                "min_range": 0,
+                "max_range": 7,
+				"attacks": 2,
+                "strength": 4,
+                "dmg_hit": 2,
+                "dmg_crit": 4
+            }
+        ]
+    },
+    {
+        "id": "extremis-7",
+        "grand_alliance": "order",
+        "warband": "Stormcast Eternals Extremis Chamber",
+        "name": "Gryph-Hound",
+        "points": 210,
+        "movement": 6,
+        "toughness": 4,
+        "wounds": 12,
+        "runemarks": [
+			"beast"
+		],
+        "subfaction": "",
+        "weapons": [
+            {
+                "runemark": "claws",
+                "min_range": 0,
+                "max_range": 1,
+				"attacks": 4,
+                "strength": 4,
+                "dmg_hit": 1,
+                "dmg_crit": 4
+            }
+        ]
+    },
+    {
+        "id": "ruination_rgm",
+        "grand_alliance": "order",
+        "warband": "Stormcast Eternals Ruination Chamber",
+        "name": "Reclusian with Great Mace",
+        "points": 155,
+        "movement": 4,
+        "toughness": 5,
+        "wounds": 20,
+        "runemarks": [
+			"terrifying"
+		],
+        "subfaction": "",
+        "weapons": [
+            {
+                "runemark": "mace",
+                "min_range": 0,
+                "max_range": 1,
+				"attacks": 3,
+                "strength": 5,
+                "dmg_hit": 3,
+                "dmg_crit": 5
+            }
+        ]
+    },
+    {
+        "id": "thunderstike_lc",
+        "grand_alliance": "order",
+        "warband": "Stormcast Eternals Thunderstrike Stormcast",
+        "name": "Lord-Celestant",
+        "points": 230,
+        "movement": 4,
+        "toughness": 5,
+        "wounds": 30,
+        "runemarks": [
+			"hero",
+			"destroyer"
+		],
+        "subfaction": "",
+        "weapons": [
+            {
+                "runemark": "hammer",
+                "min_range": 0,
+                "max_range": 1,
+				"attacks": 5,
+                "strength": 5,
+                "dmg_hit": 2,
+                "dmg_crit": 5
+            }
+        ]
+    },
+    {
+        "id": "thunderstike_lr",
+        "grand_alliance": "order",
+        "warband": "Stormcast Eternals Thunderstrike Stormcast",
+        "name": "Lord-Relictor",
+        "points": 200,
+        "movement": 4,
+        "toughness": 5,
+        "wounds": 30,
+        "runemarks": [
+			"hero",
+			"terrifying"
+		],
+        "subfaction": "",
+        "weapons": [
+            {
+                "runemark": "hammer",
+                "min_range": 0,
+                "max_range": 1,
+				"attacks": 4,
+                "strength": 4,
+                "dmg_hit": 2,
+                "dmg_crit": 5
+            }
+        ]
+    },
+    {
+        "id": "thunderstike_spsl",
+        "grand_alliance": "order",
+        "warband": "Stormcast Eternals Thunderstrike Stormcast",
+        "name": "Stormstrike Pallador with Stormstrike Lance",
+        "points": 205,
+        "movement": 8,
+        "toughness": 6,
+        "wounds": 28,
+        "runemarks": [
+			"mount"
+		],
+        "subfaction": "",
+        "weapons": [
+            {
+                "runemark": "spear",
+                "min_range": 0,
+                "max_range": 2,
+				"attacks": 3,
+                "strength": 4,
+                "dmg_hit": 2,
+                "dmg_crit": 5
+            }
+        ]
+    }
+]

@@ -8,4 +8,12 @@ parent: Additional Fighters
 
 Add the following fighters to the Stormcast Eternals: Ruination Chamber faction.
 
-![Reclusian with Great Mace]({{ site.baseurl }}/assets/img/sentinels-of-order_stormcast-eternals-ruination-chamber_reclusian-with-great-mace_2026-11-13_12-00.png)
+## Fighters
+
+{% assign warband_fighters = site.data.fighters | where: "warband", "Stormcast Eternals Ruination Chamber" | sort: "points" | reverse %}
+
+{% for fighter in warband_fighters %}
+  {% unless fighter.runemarks contains "hero" %}
+    {% include fighter-card.html fighter=fighter %}
+  {% endunless %}
+{% endfor %}

@@ -1,0 +1,72 @@
+[
+    {
+        "name": "Righteous Avengers",
+        "warband": "Stormcast Eternals Extremis Chamber",
+        "cost": "triple",
+        "description": "Pick a visible friendly fighter within 6\" of this fighter that has not activated yet this battle round. You can activate that fighter immediately after this fighter’s activation ends. That fighter adds 1 to the strength characteristics of any attack actions it makes until the end of its activation.",
+        "runemarks": ["hero"]
+    },
+    {
+        "name": "Cleaving Blow",
+        "warband": "Stormcast Eternals Extremis Chamber",
+        "cost": "double",
+        "description": "Until the end of this fighter's activation, add 1 to the Attacks and Strength characteristics of melee attack actions made by this fighter that target an enemy fighter with a Wounds characteristic of 15 or more.",
+        "runemarks": ["elite"]
+    },
+    {
+        "name": "Thunderstruck",
+        "warband": "Stormcast Eternals Extremis Chamber",
+        "cost": "double",
+        "description": "Until the end of the battle round, enemy fighters within 3'' of this fighter cannot make reactions.",
+        "runemarks": ["destroyer"]
+    },
+    {
+        "name": "Overwhelming Volleystorm",
+        "warband": "Stormcast Eternals Extremis Chamber",
+        "cost": "triple",
+        "description": "Until the end of this fighter's activation, if a ranged attack action made by this fighter scores any hits or critical hits, subtract 1 from the target fighter's Toughness characteristic (to a minimum of 1) until the end of the battle round.",
+        "runemarks": ["scout"]
+    },
+    {
+        "name": "Impaling Strikes",
+        "warband": "Stormcast Eternals Extremis Chamber",
+        "cost": "triple",
+        "description": "Until the end of this fighter's activation, the next time this fighter finishes a move action within 1\" of an enemy fighter, pick a visible enemy fighter within 1\" of this fighter. Allocate a number of damage points to that fighter equal to the value of this ability.",
+        "runemarks": ["bulwark"]
+    },
+    {
+        "name": "Atavistic Tempest",
+        "warband": "Stormcast Eternals Extremis Chamber",
+        "cost": "quad",
+        "description": "Pick a visible enemy fighter within 6\" of this fighter. Allocate a number of damage points equal to the value of this ability to all enemy fighters within 3\" of that fighter.",
+        "runemarks": ["mount"]
+    },
+    {
+        "name": "Living Weapon",
+        "warband": "Stormcast Eternals Extremis Chamber",
+        "cost": "reaction",
+        "description": "A fighter can make this reaction after they are targeted by a melee attack action but before the hit rolls are made. For each hit roll from that attack action that misses, allocate 1 damage point to the attacking fighter. This reaction cannot be made by fighters with the Beast runemark.",
+        "runemarks": []
+    },
+    {
+        "name": "Dracoth Riders",
+        "warband": "Stormcast Eternals Extremis Chamber",
+        "cost": "battletrait",
+        "description": "Friendly fighters with the mounted runemark may make climb actions.",
+        "runemarks": []
+    },
+    {
+        "name": "Furious Retribution",
+        "warband": "Stormcast Eternals Thunderstrike Stormcast",
+        "cost": "triple",
+        "description": "Pick a visible friendly fighter within 6\" of this fighter that has not activated yet this battle round. You can activate that fighter immediately after this fighter’s activation ends. That fighter adds 1 to the strength characteristics of any attack actions it makes until the end of its activation.",
+        "runemarks": ["destroyer"]
+    },
+    {
+        "name": "Lightning Storm",
+        "warband": "Stormcast Eternals Thunderstrike Stormcast",
+        "cost": "triple",
+        "description": "Pick a point on the battlefield within 12\" of this fighter and roll a number of dice equal to the value of this ability. For each roll of 4+, allocate 1 damage point to all enemy fighters within 4” of the selected point.",
+        "runemarks": ["terrifying"]
+    }
+]

@@ -1,0 +1,259 @@
+// Fighter Card Styling
+
+.wc-card {
+  display: grid;
+  grid-template-columns: 1fr auto 195px;
+  gap: 12px;
+  max-width: 580px;
+  padding: 14px 16px;
+  margin-bottom: 1.5rem;
+  border-radius: 6px;
+  background-color: #140808;
+  background-image: url('../img/textures/card-bg.jpg');
+  background-size: cover;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+  color: #111;
+  font-family: 'Chakra Petch', sans-serif;
+  position: relative;
+
+  svg {
+    width: 100%;
+    height: 100%;
+    fill: currentColor;
+  }
+}
+
+.wc-left-col {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.wc-title {
+  margin: 0 !important;
+  color: #f4f1ea !important;
+  font-family: 'Cinzel', Georgia, serif;
+  font-size: 1.15rem !important;
+  font-weight: 700 !important;
+  line-height: 1.15 !important;
+  letter-spacing: 0.03em;
+  text-shadow: 1px 2px 3px rgba(0, 0, 0, 0.9);
+}
+
+.wc-weapons-stack {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-top: auto;
+}
+
+.wc-weapon-strip {
+  display: grid;
+  grid-template-columns: 1.2fr 1fr 1fr 1fr 1.2fr;
+  align-items: center;
+  padding: 8px 6px;
+  border-radius: 3px;
+  background-color: #e6dfd1;
+  background-image: url('../img/textures/parchment.jpg');
+  background-size: cover;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.6);
+}
+
+.wc-weapon-icon {
+  width: 34px;
+  height: 34px;
+  margin: 0 auto;
+  filter: brightness(0);
+}
+
+.wc-stat-cell {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-left: 1.5px solid rgba(0, 0, 0, 0.65);
+  padding: 0 4px;
+  line-height: 1;
+}
+
+.wc-stat-icon {
+  width: 18px;
+  height: 18px;
+  margin-bottom: 4px;
+  filter: brightness(0);
+}
+
+.wc-stat-val {
+  font-size: 1.05rem;
+  font-weight: 800;
+}
+
+.wc-runemarks-col {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  gap: 8px;
+  padding-bottom: 2px;
+}
+
+.wc-runemark-circle {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  padding: 6px;
+  background-color: #e6dfd1;
+  background-image: url('/warcry-homebrew/assets/img/textures/parchment.jpg');
+  background-size: cover;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.65);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  svg,
+  svg path,
+  svg g,
+  svg circle,
+  svg polygon,
+  svg rect {
+    fill: #111111;
+  }
+}
+
+.wc-right-col {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 205px;
+}
+
+.wc-top-badges {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  z-index: 3;
+}
+
+.wc-black-circle {
+  width: 54px;
+  height: 54px;
+  border-radius: 50%;
+  background: #0a0a0a;
+  border: 2px solid #ffffff;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.7);
+}
+
+.wc-faction-badge svg {
+  width: 34px;
+  height: 34px;
+  display: block;
+  flex-shrink: 0;
+}
+
+.wc-points-badge {
+  font-size: 1.25rem;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+}
+
+.wc-portrait-frame {
+  position: absolute;
+  top: 22px;
+  width: 152px;
+  height: 152px;
+  border-radius: 50%;
+  background: #e5e7eb;
+  overflow: hidden;
+  z-index: 1;
+  box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.15);
+
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top center;
+  }
+}
+
+.wc-core-stats {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 7px 4px;
+  border-radius: 3px;
+  background-color: #e6dfd1;
+  background-image: url('/warcry-homebrew/assets/img/textures/parchment.jpg');
+  background-size: cover;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.7);
+  z-index: 3;
+}
+
+.wc-core-cell {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  font-size: 1.15rem;
+  font-weight: 800;
+  line-height: 1;
+
+  &:not(:first-child) {
+    border-left: 1.5px solid rgba(0, 0, 0, 0.65);
+  }
+}
+
+.wc-core-icon {
+  width: 16px;
+  height: 16px;
+  display: inline-flex;
+  filter: brightness(0);
+}
+
+/* Mobile Responsive Stacking */
+@media (max-width: 560px) {
+  .wc-card {
+    grid-template-columns: 1fr;
+  }
+  .wc-runemarks-col {
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+}
+
+// Abilities Styling
+
+.wc-table-runemarks {
+  white-space: nowrap;
+  width: 1%;
+  text-align:center;
+  vertical-align: middle;
+}
+
+.wc-inline-runemark {
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+  vertical-align: middle;
+  margin-right: auto;
+
+  svg {
+    width: 100%;
+    height: 100%;
+    display: block;
+
+    &,
+    path,
+    g,
+    circle,
+    polygon,
+    rect {
+      fill: currentColor !important;
+    }
+  }
+}

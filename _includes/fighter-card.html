@@ -1,0 +1,78 @@
+{% assign f = include.fighter %}
+{% assign warband_slug = f.warband | slugify %}
+
+<div class="wc-card">
+  <div class="wc-left-col">
+    <h3 class="wc-title">{{ f.name | upcase }}</h3>
+
+    <div class="wc-weapons-stack">
+      {% for weapon in f.weapons %}
+      <div class="wc-weapon-strip">
+        <div class="wc-weapon-icon">
+          {% include runemarks/weapons-{{ weapon.runemark }}.svg %}
+        </div>
+        <div class="wc-stat-cell">
+          <span class="wc-stat-icon">{% include runemarks/characteristic-range.svg %}</span>
+          <span class="wc-stat-val">
+		  {%- if weapon.min_range > 0 -%}
+			{{ weapon.min_range }}-{{ weapon.max_range }}
+		  {%- else -%}
+			{{ weapon.max_range }}
+		  {%- endif -%}
+		  </span>
+        </div>
+        <div class="wc-stat-cell">
+          <span class="wc-stat-icon">{% include runemarks/characteristic-attacks.svg %}</span>
+          <span class="wc-stat-val">{{ weapon.attacks }}</span>
+        </div>
+        <div class="wc-stat-cell">
+          <span class="wc-stat-icon">{% include runemarks/characteristic-strength.svg %}</span>
+          <span class="wc-stat-val">{{ weapon.strength }}</span>
+        </div>
+        <div class="wc-stat-cell">
+          <span class="wc-stat-icon">{% include runemarks/characteristic-damage.svg %}</span>
+          <span class="wc-stat-val">{{ weapon.dmg_hit }} / {{ weapon.dmg_crit }}</span>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+
+  <div class="wc-runemarks-col">
+    {% for mark in f.runemarks %}
+    <div class="wc-runemark-circle" title="{{ mark | capitalize }}">
+      {% include runemarks/fighters-{{ mark }}.svg %}
+    </div>
+    {% endfor %}
+  </div>
+
+  <div class="wc-right-col">
+    <div class="wc-top-badges">
+      <div class="wc-black-circle wc-faction-badge">
+        {% include runemarks/factions-{{ f.grand_alliance }}-{{ warband_slug }}.svg %}
+      </div>
+      <div class="wc-black-circle wc-points-badge">
+        {{ f.points }}
+      </div>
+    </div>
+
+    <div class="wc-portrait-frame">
+      <img src="{{ '/assets/img/fighters/' | append: f.name | append: '.png' | relative_url }}" alt="{{ f.name }}">
+    </div>
+
+    <div class="wc-core-stats">
+      <div class="wc-core-cell">
+        <span class="wc-core-icon">{% include runemarks/characteristic-move.svg %}</span>
+        <span class="wc-core-val">{{ f.movement }}</span>
+      </div>
+      <div class="wc-core-cell">
+        <span class="wc-core-icon">{% include runemarks/characteristic-toughness.svg %}</span>
+        <span class="wc-core-val">{{ f.toughness }}</span>
+      </div>
+      <div class="wc-core-cell">
+        <span class="wc-core-icon">{% include runemarks/characteristic-wounds.svg %}</span>
+        <span class="wc-core-val">{{ f.wounds }}</span>
+      </div>
+    </div>
+  </div>
+</div>
