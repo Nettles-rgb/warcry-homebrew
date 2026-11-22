@@ -163,22 +163,23 @@
   letter-spacing: -0.02em;
 }
 
-.WC-portrait-frame {
+.wc-portrait-frame {
   position: absolute;
-  top: 10.5%;
-  width: 78%;
-  aspect-ratio: 1 1; 
+  top: 3.8cqw;
+  width: 26.2cqw;
+  height: 26.2cqw;
   border-radius: 50%;
   background: #e5e7eb;
   overflow: hidden;
   z-index: 1;
-  box-shadow: inset 1px rgba(0, 0, 0, 0.15);
+  box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.15);
 
   img {
     width: 100%;
     height: 100%;
     object-fit: cover;
     object-position: top center;
+    display: block;
   }
 }
 
