@@ -256,31 +256,30 @@
 
 @media (max-width: 600px) {
   .main-content .table-wrapper {
+    display: block;
+    width: 100%;
     overflow-x: auto;
-    box-shadow: none;
+    -webkit-overflow-scrolling: touch;
   }
 
   .main-content table {
-    width: 100% !important;
+    width: 100%;
     min-width: 0 !important;
-    table-layout: auto;
-    font-size: 0.8rem;
+    font-size: 0.82rem;
   }
 
   .main-content th,
   .main-content td {
     min-width: 0 !important;
-    padding: 0.35rem 0.45rem !important;
-    white-space: normal !important;
-    word-break: break-word;
-    overflow-wrap: break-word;
+    padding: 0.4rem 0.5rem !important;
+    word-break: normal !important;
+    overflow-wrap: normal !important;
   }
 
-  /* Keep the Runemark column compact while letting text columns wrap */
-  .main-content td.wc-table-runemarks,
-  .main-content th:first-child {
-    width: 1%;
-    white-space: nowrap !important;
+  /* Keep short stat/cost/dice columns on one line, let description columns wrap */
+  .main-content td:last-child,
+  .main-content th:last-child {
+    min-width: 180px !important;
+    white-space: normal !important;
   }
 }
-
