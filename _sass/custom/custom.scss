@@ -251,3 +251,36 @@
     }
   }
 }
+
+// Mobile Overrides
+
+@media (max-width: 600px) {
+  .main-content .table-wrapper {
+    overflow-x: visible;
+    box-shadow: none;
+  }
+
+  .main-content table {
+    width: 100% !important;
+    min-width: 0 !important;
+    table-layout: auto;
+    font-size: 0.8rem;
+  }
+
+  .main-content th,
+  .main-content td {
+    min-width: 0 !important;
+    padding: 0.35rem 0.45rem !important;
+    white-space: normal !important;
+    word-break: break-word;
+    overflow-wrap: break-word;
+  }
+
+  /* Keep the Runemark column compact while letting text columns wrap */
+  .main-content td.wc-table-runemarks,
+  .main-content th:first-child {
+    width: 1%;
+    white-space: nowrap !important;
+  }
+}
+
