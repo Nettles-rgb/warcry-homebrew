@@ -251,35 +251,3 @@
     }
   }
 }
-
-// Mobile Overrides
-
-@media (max-width: 600px) {
-  .main-content .table-wrapper {
-    display: block;
-    width: 100%;
-    overflow-x: auto;
-    -webkit-overflow-scrolling: touch;
-  }
-
-  .main-content table {
-    width: 100%;
-    min-width: 0 !important;
-    font-size: 0.82rem;
-  }
-
-  .main-content th,
-  .main-content td {
-    min-width: 0 !important;
-    padding: 0.4rem 0.5rem !important;
-    word-break: normal !important;
-    overflow-wrap: normal !important;
-  }
-
-  /* Keep short stat/cost/dice columns on one line, let description columns wrap */
-  .main-content td:last-child,
-  .main-content th:last-child {
-    min-width: 180px !important;
-    white-space: normal !important;
-  }
-}
