@@ -20,7 +20,16 @@ Additional fighters for existing factions. These aim to fill holes that GW never
 
 Rules to create a unique hero to lead your warband. I've tried to keep these flavourful, with a big range of potential fighters. 
 
-#### Homebrew Factions
+### Faction Customisation
+
+Rules for adding extra customisability to a faction, such as Stormhosts, Pledges to Chaos Gods or Cities of Sigmar.
+
+### Homebrew Battleplan Rules
+
+Victory conditions, deployments and twists.
+
+### Homebrew Factions
+
 These are whole new homebrew factions with new fighters, abilities, reactions and battle traits. The goal of these is to fit neatly into the wider Warcry game.
 
 These could include:
@@ -29,6 +38,14 @@ These could include:
 * Long-squatted AoS factions that are being resurrected into Warcry (Legions of Azgorh),
 * WHFB factions, 
 * Decidedly non-canon fun stuff (TBA).
+
+### Narrative Quests
+
+Narrative quests to obtain artefacts, traits, encampments or even allies.
+
+### Warbands of Renown
+
+Remixed warbands with different abilities or warband composition rules.
 
 ## Designer's Notes
 
