@@ -13,21 +13,21 @@ Porting across the Anvil of Apotheosis rules (with some adjustments) from Bigmar
 
 I’ve finalised the Stormcast Eternals anvil first; I effectively have an entire expansion worth of Stormcast homebrew that I will throw up here eventually.
 
-# Using the Anvil
+## Using the Anvil
 
 The Anvil of Apotheosis provides rules for creating your own unique hero for Warcry. Due to their flexibility, these rules are not balanced for competitive play and are recommended more for narrative campaigns where everyone has created their own leader. Exact steps differ depending on the factions, but generally creating a fighter includes the following steps:
 
-## 1. Choose an Archetype
+### 1. Choose an Archetype
 Select an Archetype. This determines the fighter’s Movement, Toughness and Wounds, their Runemarks, and which statline to use for attack profiles when you select equipment.
 
-## 2. Choose a Faction
+### 2. Choose a Faction
 Most Anvils include multiple choices of faction for your hero, determing their Faction Runemark and (occasionally) providing access to equipment unique to that faction.
 
-## 3. Select Equipment
+### 3. Select Equipment
 Choose the fighter’s weapons, armour, mount, and any other items from the Equipment section. Weapons provide a fighter with its attack profiles.
 
-## 4. Choose Origin Trait
+### 4. Choose Origin Trait
 A fighter may optionally be given one Origin Trait.
 
-## 5. Additional Runemark
+### 5. Additional Runemark
 A fighter may choose one additional Runemark, dependent on their Faction.

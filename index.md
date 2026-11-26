@@ -14,12 +14,13 @@ Use the sidebar navigation to browse custom factions, narrative campaign quests,
 
 ### Additional Fighters
 
-Additional fighters for existing factions. These aim to fill holes that GW never filled like covering unused weapon options or miniatures. In some cases I've used some artistic license to a faction some variety it was previously lacking.
+Additional fighters for existing factions. These aim to fill holes that GW never filled like covering unused weapon options or miniatures. In some cases I've used some artistic license to a faction some variety it was previously lacking. Where appropriate these additional fighters come with additional abilities.
 
-Where appropriate these additional fighters come with additional abilities.
+### The Anvil of Apotheosis
 
-### Homebrew Factions
+Rules to create a unique hero to lead your warband. I've tried to keep these flavourful, with a big range of potential fighters. 
 
+#### Homebrew Factions
 These are whole new homebrew factions with new fighters, abilities, reactions and battle traits. The goal of these is to fit neatly into the wider Warcry game.
 
 These could include:
@@ -27,7 +28,48 @@ These could include:
 * Age of Sigmar factions (or subfactions) that never got Warcry rules (e.g. Extremis Chamber Stormcast),
 * Long-squatted AoS factions that are being resurrected into Warcry (Legions of Azgorh),
 * WHFB factions, 
-* Other assorted ideas.
+* Decidedly non-canon fun stuff (TBA).
+
+## Designer's Notes
+
+### Balance
+
+I don't play a huge amount but take an odd joy in writing homebrew. No play-testing has taken place.
+
+### Some Naming Conventions
+
+#### Darkoath and Eightpoints Tribes
+
+The following factions are collectively referred to as **Darkoath and Eightpoints Tribes** across different homebrew rules:
+
+* Darkoath  
+* Chaos Legionnaires  
+* Claws of Karanak  
+* Corvus Cabal  
+* Cypher Lords   
+* Darkoath Savagers  
+* The Horns of Hashut  
+* Iron Golem  
+* The Jade Obelisk  
+* Rotmire Creed  
+* Scions of the Flame   
+* Spire Tyrants  
+* Splintered Fang  
+* Tarantulas Brood  
+* The Unmade  
+* Untamed Beasts
+
+#### Stormcast Eternals Warbands
+
+The following factions are collectively referred to as **Stormcast Eternals** warbands across different homebrew rules:
+
+* Warrior Chamber
+* Sacrosanct Chamber
+* Vanguard Chamber
+* Ruination Chamber
+* Extremis Chamber
+* Questor Soulsworn
+* Thunderstrike Stormcasts
 
 ## Credits and Attributions
 
