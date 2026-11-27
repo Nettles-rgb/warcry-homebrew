@@ -68,5 +68,26 @@
         "cost": "triple",
         "description": "Pick a point on the battlefield within 12\" of this fighter and roll a number of dice equal to the value of this ability. For each roll of 4+, allocate 1 damage point to all enemy fighters within 4” of the selected point.",
         "runemarks": ["terrifying"]
+    },
+    {
+        "name": "Uninspiring Presence",
+        "warband": "Sons of Behemat",
+        "cost": "passive",
+        "description": "The Behemati only listen to those that are bigger than them. A Sons of Behemat warband may not include fighters with the Hero or Ally runemark. When creating your warband, one fighter without the Hero or Beast Runemark must be chosen as the warband leader (representing perhaps the marginally biggest, loudest, or only Gargant in your warband that cares about such matters). This fighter may gain Heroic Traits in narrative play as if it had the Hero Runemark.",
+        "runemarks": []
+    },
+    {
+        "name": "Longshanks",
+        "warband": "Sons of Behemat",
+        "cost": "battletrait",
+        "description": "Once per battle round, one fighter in this warband with the Brute runemark may ignore enemy fighters and terrain when making a move action.",
+        "runemarks": []
+    },
+    {
+        "name": "Monstrous Reach",
+        "warband": "Sons of Behemat",
+        "cost": "double",
+        "description": "Until the end of this monster’s activation, do not count the vertical distance when measuring the range for attack actions made by this fighter.",
+        "runemarks": ["brute"]
     }
 ]
